@@ -8,15 +8,22 @@
 //6.6 Add a statement that adds Daan's favorite animal ('baby pig') to the existing array.
 //6.7 Log your new array!
 "use strict";
+const arrayOfDays = [];
 
-const arrayOfDays = ["Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday",];
+console.log("The value of the arrayOfDays is the string for the names of the days of the week.");
+
+arrayOfDays.push("Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday");
+
 console.log("The name of days in a week are: " + arrayOfDays);
 
 const favAnimals = ["Kiwi", " Egret"];
 
 console.log("My favourite animals are: " + favAnimals);
 
-const favAnimalDaan = "baby pig";
+const favAnimalDaan = "Baby Pig";
 
 console.log("My favourite animals are: " + favAnimals + "; and Daan's favourite animal is: " + favAnimalDaan );
 
+favAnimals.push(" Baby Pig");
+
+console.log("Daan's and my favourite animals are " + favAnimals);

@@ -1,5 +1,5 @@
 //This is for step 3 jsweek2 homework, item #05, rounding.
-"use strict"
+"use strict";
 //5. How do you round the number 7.25, to the nearest integer(i.e., whole number) ?
 //    5.1 Declare a variable z and assign the number 7.25 to it.
 //5.2 Console.log z.
@@ -17,6 +17,6 @@ let a = Math.round(z);
 console.log(a);
 
 if (z > a); {
-    let b = z;
+    let b = Math.max(z, a);
     console.log(b);
 }

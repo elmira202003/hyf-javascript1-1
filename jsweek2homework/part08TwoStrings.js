@@ -37,12 +37,24 @@ console.log("Variable tata is a " + typeof tata);
         //console.log('SAME TYPE');
     //}
     // TODO -> add a way of giving feedback if your variables don't have the same type
-if (typeof foo === typeof bar) { console.log("Variables foo and bar are SAME TYPE");}
-else { console.log("Variables foo and bar are not SAME TYPE"); }
-if (typeof toto === typeof tata) { console.log("Variables toto and tata are SAME TYPE"); }
-else { console.log("Variables toto and bar are not SAME TYPE"); }
-if (typeof foo !== typeof tata) { console.log("Variables foo and tata are NOT same type"); }
-if (typeof toto !== typeof bar) { console.log("Variables toto and bar are NOT same type"); }
+if (typeof foo === typeof bar) {
+    console.log("Variables foo and bar are SAME TYPE");
+}
+else {
+    console.log("Variables foo and bar are not SAME TYPE");
+}
+if (typeof toto === typeof tata) {
+    console.log("Variables toto and tata are SAME TYPE");
+}
+else {
+    console.log("Variables toto and bar are not SAME TYPE");
+}
+if (typeof foo !== typeof tata) {
+    console.log("Variables foo and tata are NOT same type");
+}
+if (typeof toto !== typeof bar) {
+    console.log("Variables toto and bar are NOT same type");
+}
 
 
 
